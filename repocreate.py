@@ -38,7 +38,7 @@ def create_repo():
 	else:
 		payload = {
 			"name": repo_name,
-			"private": "true"
+			"private": "false"
 		}
 	headers = {
 		"Authorization": "token " + GITHUB_TOKEN,
